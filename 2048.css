@@ -1,0 +1,17 @@
+#grid {
+  border: 2px solid black;
+  height: 80vmin;
+  width: 80vmin;
+  display: grid;
+  grid-template-columns: repeat(3, 25vmin);
+  grid-template-rows: repeat(3, 25vmin);
+  gap: calc(5vmin / 4);
+}
+.Tile {
+  border: 2px solid black;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: calc(5vmin / 5);
+  left: calc(5vmin / 5);
+}
